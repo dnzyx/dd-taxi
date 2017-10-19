@@ -10,10 +10,9 @@ import android.view.ViewGroup;
  * Created by Lenovo on 2017/10/19.
  */
 
-public class bootom extends Fragment
-{
+public class location extends Fragment {
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.bottom,container,true);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.location,container,true);
     }
 }

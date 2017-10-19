@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:layout_gravity="bottom"
@@ -10,7 +11,7 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="282dp"
+        android:layout_height="248dp"
         app:srcCompat="@drawable/ditu" />
 
     <LinearLayout
@@ -31,7 +32,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="当前位置" />
+            android:hint="当前位置" />
     </LinearLayout>
 
     <LinearLayout
@@ -52,7 +53,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="要去的地方" />
+            android:hint="要去的地方" />
     </LinearLayout>
 
     <Button

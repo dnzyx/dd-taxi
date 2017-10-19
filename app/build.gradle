@@ -4,7 +4,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion '23.0.2'
     defaultConfig {
-        applicationId "com.example.administrator.fragment"
+        applicationId "com.leanring.dnzyx.dd_taxi"
         minSdkVersion 19
         targetSdkVersion 24
         versionCode 1
@@ -27,4 +27,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:support-v13:26.0.0-alpha1'
     compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
 }
