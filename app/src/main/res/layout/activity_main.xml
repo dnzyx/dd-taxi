@@ -3,20 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1">
 
     <fragment
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/mainActivity_content"
         android:name="com.leanring.dnzyx.dd_taxi.location"
-        android:id="@+id/fragment"
-        tools:layout="@layout/location" />
-
-    <fragment
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        tools:layout="@layout/location"
+        android:layout_weight="0.82" />
+        />
+
+    <fragment
+        android:id="@+id/mainActiviy_botoom"
         android:name="com.leanring.dnzyx.dd_taxi.bootom"
-        android:id="@+id/fragment2"
-        tools:layout="@layout/bottom"
-        android:layout_marginTop="15dp" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        tools:layout="@layout/bottom" />
 </LinearLayout>

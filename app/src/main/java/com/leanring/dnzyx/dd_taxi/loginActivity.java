@@ -21,6 +21,8 @@ public class loginActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
+
+                //login secceseful
                 Intent i=new Intent(loginActivity.this,MainActivity.class);
                 startActivity(i);
             }

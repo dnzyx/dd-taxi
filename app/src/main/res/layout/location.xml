@@ -6,13 +6,15 @@
     android:layout_height="match_parent"
     android:layout_gravity="bottom"
     android:layout_marginLeft="20dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="248dp"
-        app:srcCompat="@drawable/ditu" />
+        app:srcCompat="@drawable/ditu"
+        android:layout_weight="0.78" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,13 +28,13 @@
             app:srcCompat="@drawable/location" />
 
         <EditText
-            android:id="@+id/editText5"
+            android:id="@+id/locat"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="当前位置" />
+            android:hint="当前位置"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -47,19 +49,20 @@
             app:srcCompat="@drawable/location" />
 
         <EditText
-            android:id="@+id/editText5"
+            android:id="@+id/des"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="要去的地方" />
+            android:hint="要去的地方"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <Button
         android:id="@+id/call_car"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="立刻叫车" />
+        android:text="立刻叫车"
+        android:layout_weight="0.14" />
 
 </LinearLayout>
